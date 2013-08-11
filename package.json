@@ -1,0 +1,27 @@
+{
+  "name": "renoise",
+  "description": "Module to work with Renoise songs",
+  "version": "0.0.1",
+  "main": "src/Renoise.js",
+  "homepage": "https://github.com/sole/renoise-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sole/renoise-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sole/renoise-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/sole/renoise-node/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "renoise, tracker, patterns, modules, music"
+  ],
+  "dependencies": {
+    "xml2js": "~0.2.8",
+    "unzip": "~0.1.8"
+  }
+}
