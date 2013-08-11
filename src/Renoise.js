@@ -36,8 +36,6 @@ function loadAsJSON(filename, callback) {
 		
 		var parser = new xml2js.Parser({ explicitArray: false });
 		parser.parseString(xml, function(err, result) {
-			console.dir(result);
-			console.log('Done');
 			callback(result);
 		});
 		
